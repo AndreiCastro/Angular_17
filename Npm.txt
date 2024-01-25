@@ -1,3 +1,18 @@
-Npm
+Npm : Significa Node Package Mananger
 
-	- Npm: significa Node Package Mananger
+	- npm --version : Show version npm
+	
+	- npm init --yes: Cria o file package.json. O Yes é para instalar sem fazer varias perguntas de instalação. 
+	
+	- package.json: The file package.json where have the package principais	do meu projeto.
+
+	- npm i PackageName: Install one package especifico. Modifica o package.json com o pacote instaldo. É criado no package.json a flag de Dependencies e também é
+	criado o arquivo package-lock.json. In this file mostra os pacotes e suas dependencias.
+
+	- package-lock.json: Dependencias das dependencias of the packages of the file package.json.	
+
+	- npm i PackageName --save-dev: If want to install only for ambiente de dev.
+
+	- npm uninstall PackageName: Remove a dependencia do project.
+
+	- 

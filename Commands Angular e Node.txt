@@ -1,6 +1,8 @@
 Angular CLI e Node
 
-	- npm i: Run this commond (equals npm install) in the folder where estiver the file package.json 		instala todos os pacotes listados in the file, assim gerando the folder node_modules
+	- npm i: Run this commond (equals npm install) in the folder where estiver the file package.json instala todos os pacotes listados in the file, assim gerando the folder node_modules
+
+	- node_modules: It's the folder that contem todas as dependencias do meu projeto.
 
 	- ng serve: Run project, to run also na same folder that estiver the file package.json
 
