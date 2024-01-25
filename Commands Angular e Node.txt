@@ -1,0 +1,15 @@
+Angular CLI e Node
+
+	- npm i: Run this commond (equals npm install) in the folder where estiver the file package.json 		instala todos os pacotes listados in the file, assim gerando the folder node_modules
+
+	- ng serve: Run project, to run also na same folder that estiver the file package.json
+
+	- node --version: Show version node
+	
+	- ng version: Show version angular 
+
+	- npm uninstall @angular/cli -g: Unistall angular cli of the machine. o g do final significa 	install global
+
+	- npm install @angular/cli@version - g: Install the version especifica do angular cli.
+
+
