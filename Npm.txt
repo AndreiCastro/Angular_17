@@ -1,18 +1,37 @@
 Npm : Significa Node Package Mananger
 
-	- npm --version : Show version npm
+	- npm --version :				Show version npm
 	
-	- npm init --yes: Cria o file package.json. O Yes é para instalar sem fazer varias perguntas de instalação. 
+	- npm init --yes: 				Cria o file package.json. O Yes é para instalar sem fazer varias perguntas de instalação. 
 	
-	- package.json: The file package.json where have the package principais	do meu projeto.
+	- package.json: 				The file package.json where have the package principais	do meu projeto.
 
-	- npm i PackageName: Install one package especifico. Modifica o package.json com o pacote instaldo. É criado no package.json a flag de Dependencies e também é
-	criado o arquivo package-lock.json. In this file mostra os pacotes e suas dependencias.
+	- npm i: 						Run this commond (equals npm install) in the folder where estiver the file package.json instala todos os pacotes listados in this 
+									file, assim gerando the folder node_modules and file package-lock.json
 
-	- package-lock.json: Dependencias das dependencias of the packages of the file package.json.	
+	- node_modules: 				It's the folder that contem todas as dependencias do meu projeto.
+
+	- package-lock.json: 			Dependencias das dependencias of the packages of the file package.json.	
+
+	- npm i PackageName: 			Install one package especifico. Modifica o package.json com o pacote instaldo. É criado no package.json a flag de Dependencies 
+									também é criado o arquivo package-lock.json. In this file mostra os pacotes e suas dependencias.	
 
 	- npm i PackageName --save-dev: If want to install only for ambiente de dev.
 
-	- npm uninstall PackageName: Remove a dependencia do project.
+	- npm uninstall PackageName: 	Remove a dependencia do project.
 
-	- 
+	- npm audit:					Verifica packages with vunerabilidade.	
+
+	- NVM:		Node Version Manager. Um controlador de version para ter mais de um node instalado. Baixa ele em um project de github. Após instalar ele, para 
+				usar baixar outras versões do node, use o comando:
+					- nvm instal NodeVersion 
+					- nvm use NodeVersion:	Muda para a versão do node escolhida.
+				Sempre que mudar a versão do node e npm, usar o comando:
+					- npm cache clean --force
+				Porque quando for rodar o npm i, será usando o cache para mais agilidade, e como as versão são diferentes do npm, irá dar um erro. Vai gerar a pasta
+				node_module, mas não o file package-lock.json.
+
+	- No arquivo package.json, tem um o texto com nome: lockfileVersion. Se estiver como 1 é a versão antiga do npm, se estiver como 3 é a mais recente. Se na sua
+	maquina estiver usando o npm mais recente, consegue ler o lockfileVersion 1, já ao contrario não.
+
+	- npm login:					For to upload the my package in the npm site. (OBS: You need have a acount in the npm site.)
