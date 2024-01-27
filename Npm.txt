@@ -35,3 +35,5 @@ Npm : Significa Node Package Mananger
 	maquina estiver usando o npm mais recente, consegue ler o lockfileVersion 1, já ao contrario não.
 
 	- npm login:					For to upload the my package in the npm site. (OBS: You need have a acount in the npm site.)
+
+	- npm publish:					For publish your package, always que fizer this command, esteja in the folder of your package.

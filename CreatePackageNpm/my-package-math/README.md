@@ -4,7 +4,7 @@
 
 Using npm:
 ```shel
-$ npm i --save my-package
+$ npm i --save my-package-math
 ```
 
 In Node.js
