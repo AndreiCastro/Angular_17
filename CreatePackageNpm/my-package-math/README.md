@@ -1,4 +1,4 @@
-# my-package
+# my-package-math 1.0.2
 
 ## Instalation
 
