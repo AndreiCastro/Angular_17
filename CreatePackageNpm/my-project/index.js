@@ -4,3 +4,4 @@ console.log('Soma => ', math.somar(5,3));
 console.log('Subtração => ', math.subtrair(5,3));
 console.log('Mutiplicação => ', math.mutiplicar(5,3));
 console.log('Divisão => ', math.dividir(10,2));
+console.log('Mutiplicação Por Dois => ', math.mutiplicarPorDois(10));

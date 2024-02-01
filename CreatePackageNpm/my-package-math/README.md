@@ -1,4 +1,4 @@
-# my-package-math 1.0.2
+# my-package-math 1.1.0
 
 ## Instalation
 
@@ -28,3 +28,10 @@ console.log(result); //15
 //Divisão
 result = math.dividir(10,2);
 console.log(result); //5
+
+//Multiplicação
+result = math.mutiplicarPorDois(10);
+console.log(result); //20
+
+## Feature
+Add new function "multiplicacaoProDois"
