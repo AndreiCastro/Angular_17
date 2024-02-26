@@ -1,9 +1,16 @@
 Tips Angular.
 
-    - Sempre que subir seu projeto pro github, put in the file gitignore the folder node_modules, because the folder is imensa, sendo assim sempre que to do donwload of the project in the angular, run (npm i) for to include the node_module in the project.
+    - Sempre que subir seu projeto pro github, put in the file gitignore the folder node_modules, because the folder is imensa, 
+    sendo assim sempre que to do donwload of the project in the angular, run (npm i) for to include the node_module in the project.
 
     - Versões de pacotes 5.3.1:
         5 - Major: Breaks Changes, quando a uma mudança nesse valor, quem consome este pacote não consigirá mais usar a versão 5. Sempre que mudar para versão 6, 
                    zera os Minor e patch.                   
         3 - Minor: Quando a uma nova funcionalidade, mas continua funcionando na versão 5. Sempre q mudar esse valor, zerar o patch.
         1 - Patches: Path muda quando existe correções de bugs.
+
+    - Se tiver o ~ in the front of version of package significa que somente será atualizado versões compativeis with version path of package, eg:
+        ~1.1.0 this case only sera updated versions of patch, pois the package need be compativel with the version 1.1.0.
+    
+    - Se tiver o ^in the front of version of package, significa que será updated the version compativel with the version Minor of package, eg:
+        ^1.0.0 this case sera updated versions of minor and path, pois the package is compativel with this versions.

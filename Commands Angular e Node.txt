@@ -7,7 +7,7 @@ Angular CLI e Node
 	
 	- ng version: Show version angular 
 
-	- npm uninstall @angular/cli -g: Unistall angular cli of the machine. o g do final significa 	install global
+	- npm uninstall @angular/cli -g: Unistall angular cli of the machine. o g do final significa install global
 
 	- npm install @angular/cli@version - g: Install the version especifica do angular cli.
 

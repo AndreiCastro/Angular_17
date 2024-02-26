@@ -1,6 +1,6 @@
 # ChangeLog
 
-# my-package-math v1.1.0
+# my-package-math v2.0.0
 
 <!-- ## [1.0.0] - 2024-01-27
 
@@ -11,6 +11,9 @@
 
 <!-- ### Fixed
 - Corrigindo um bug que causava um erro quando chamava 'bar' -->
+
+## [2.0.0] - 2024-02-26
+- Removendo metodo mutiplicação por 2 e incluindo metodo mutiplicação por 3
 
 ## [1.1.0] - 2024-01-29
 - Include method mult for 2

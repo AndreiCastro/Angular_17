@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "my-package-math": "^1.0.2"
+    "my-package-math": "^2.0.0"
   }
 }

@@ -16,8 +16,8 @@ const dividir = (n1, n2) => {
     return n1 / n2;
 }
 
-const mutiplicarPorDois = (n1) => {
-    return n1 * 2;
+const mutiplicarPorTres = (n1) => {
+    return n1 * 3;
 }
 
-module.exports = {somar, subtrair, mutiplicar, dividir, mutiplicarPorDois}; //Exportando as funções.
+module.exports = {somar, subtrair, mutiplicar, dividir, mutiplicarPorTres}; //Exportando as funções.
