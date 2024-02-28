@@ -1,5 +1,4 @@
-Angular CLI e Node	
-	
+Angular CLI e Node		
 
 	- ng serve: Run project, to run also na same folder that estiver the file package.json
 

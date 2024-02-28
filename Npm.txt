@@ -1,7 +1,17 @@
-Npm : Significa Node Package Mananger
+Node Package Mananger
+
+Npm : Faz 
+
+N
 
 Explicações:
-	- NVM:	Node Version Manager. Um controlador de version para ter mais de um node instalado. Baixa ele em um project de github. Após instalar ele, para 
+	- NPM: 	Faz a instalações dos pacotes do site NPM
+
+	- NPX:	1º faz a validação se existe o pacote especificado localmente senão tiver, faz a validação se existe globalmente senão tiver baixa diretamento do site 
+			NPM. Ex: npx NamePackage -> Se NamePackge tiver no projeto faz a instalação, senão tiver procura na pasta do npm onde tem os packages instaldos globalmente,
+			senão tiver baixa no site NPM.
+
+	- NVM: 	Node Version Manager. Um controlador de version para ter mais de um node instalado. Baixa ele em um project de github. Após instalar ele, para 
 			usar baixar outras versões do node, use o comando:
 				- nvm install NodeVersion 
 				- nvm use NodeVersion:	Muda para a versão do node escolhida.
