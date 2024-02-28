@@ -14,3 +14,10 @@ Tips Angular.
     
     - Se tiver o ^ in the front of version of package, significa que será updated the version compativel with the version Minor of package, eg:
         ^1.0.0 this case sera updated versions of minor and path, pois the package is compativel with this versions.
+
+    - Versão 17 Angular don't create the file app.module, sendo assim, always that to create the new project include in the final command --no-standalone.
+        Ex: ng new project-inicial --no-standelone
+
+    - Abrir um projeto no code pelo cmd: Go the path of the project pelo cmd e digita code . (com espaço no ponto).
+    
+     

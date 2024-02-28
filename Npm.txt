@@ -1,15 +1,12 @@
 Node Package Mananger
 
-Npm : Faz 
-
-N
-
 Explicações:
 	- NPM: 	Faz a instalações dos pacotes do site NPM
 
-	- NPX:	1º faz a validação se existe o pacote especificado localmente senão tiver, faz a validação se existe globalmente senão tiver baixa diretamento do site 
-			NPM. Ex: npx NamePackage -> Se NamePackge tiver no projeto faz a instalação, senão tiver procura na pasta do npm onde tem os packages instaldos globalmente,
-			senão tiver baixa no site NPM.
+	- NPX:	1º faz a validação se existe o pacote especificado localmente if yes install senão tiver, faz other validação if exist
+			globalmente if yes install senão tiver baixa diretamento do site NPM and install. Ex: npx NamePackage
+			PS: Recomenda sempre usar o npx ao inves de instalar o package globalmente, pq assim sempre irá utilizar the latest version
+			of the package, já installed globalmente sempre usa a version installed.
 
 	- NVM: 	Node Version Manager. Um controlador de version para ter mais de um node instalado. Baixa ele em um project de github. Após instalar ele, para 
 			usar baixar outras versões do node, use o comando:
@@ -20,8 +17,7 @@ Explicações:
 				Sempre que mudar a versão do node e npm, usar o comando:
 				- npm cache clean --force
 				Porque quando for rodar o npm i, será usando o cache para mais agilidade, e como as versão são diferentes do npm, irá dar um erro. 
-				Vai gerar a pasta node_module, but don't the file package-lock.json.
-							
+				Vai gerar a pasta node_module, but don't the file package-lock.json.							
 
 	- No arquivo package.json, tem um o texto com nome: lockfileVersion. Se estiver como 1 é a versão antiga do npm, se estiver como 3 é a mais recente. 
 	Se na sua maquina estiver usando o npm mais recente, consegue ler o lockfileVersion 1, já ao contrario não.
