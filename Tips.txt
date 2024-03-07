@@ -1,3 +1,8 @@
+Tips VSCode.
+
+    - Abrir um projeto no code pelo cmd: Go the path of the project pelo cmd e digita code . (com espaço no ponto).
+
+=================================================================================================================================================================
 Tips Angular.
 
     - Sempre que subir seu projeto pro github, put in the file gitignore the folder node_modules, because the folder is imensa, 
@@ -18,6 +23,8 @@ Tips Angular.
     - Versão 17 Angular don't create the file app.module, sendo assim, always that to create the new project include in the final command --no-standalone.
         Ex: ng new project-inicial --no-standelone
 
-    - Abrir um projeto no code pelo cmd: Go the path of the project pelo cmd e digita code . (com espaço no ponto).
+    - In the file angular.json have the row "main": "src/main.ts", in this line is where have the file initial of the project. 
+
+    - In the file main.ts have the row platformBrowserDynamic().bootstrapModule(NameModule): inside the () it's the module name initial
     
      

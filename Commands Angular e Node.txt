@@ -1,13 +1,14 @@
-Angular CLI e Node		
-
-	- ng serve: Run project, to run also na same folder that estiver the file package.json
-
+Angular CLI e Node			
 	- node --version: Show version node
 	
+=================================================================================================================================================================
+Commands Ng:
+	- ng new initialProject: Create the new project in Angular
+        PS: A partir do Angular 17 don't create the file app.module, but for create this file add the command --no-standalone the last of command: 
+        ng new projectName --no-standalone
+    
+    - ng serve: Run project, to run also in same folder that estiver the file package.json
+
 	- ng version: Show version angular 
 
-	- npm uninstall @angular/cli -g: Unistall angular cli of the machine. o g do final significa install global
-
-	- npm install @angular/cli@version - g: Install the version especifica do angular cli.
-
-
+	- ng generate component: This command serve for gerar the new components in your project, to run it inside of the project

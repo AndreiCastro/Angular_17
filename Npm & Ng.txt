@@ -23,16 +23,6 @@ Explicações:
 	Se na sua maquina estiver usando o npm mais recente, consegue ler o lockfileVersion 1, já ao contrario não.
 
 =================================================================================================================================================================
-Commands Ng:
-	- ng serve: Run project, to run also in same folder that estiver the file package.json
-
-	- node --version: Show version node
-	
-	- ng version: Show version angular 
-
-	- 
-
-=================================================================================================================================================================
 Commands NPM:
 	- npm install @angular/cli@version - g: Install the version especifica do angular cli.
 
