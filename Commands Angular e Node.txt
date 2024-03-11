@@ -11,4 +11,4 @@ Commands Ng:
 
 	- ng version: Show version angular 
 
-	- ng generate component: This command serve for gerar the new components in your project, to run it inside of the project
+	- ng generate component NameComponent (ng g c NameComponent): This command serve for gerar the new components in your project, to run it inside of the project

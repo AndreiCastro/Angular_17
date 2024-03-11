@@ -23,17 +23,10 @@ Explicações:
 	Se na sua maquina estiver usando o npm mais recente, consegue ler o lockfileVersion 1, já ao contrario não.
 
 =================================================================================================================================================================
-Commands Ng:
-	- ng serve: Run project, to run also in same folder that estiver the file package.json
-
-	- node --version: Show version node
-	
-	- ng version: Show version angular 
-
-	- 
-
-=================================================================================================================================================================
 Commands NPM:
+	- PS: Always that to install a package (npm i packageName) it será saved no angular.json on the array dependencies, and if quiser to save on the dev environment
+	      usar (npm i --save-dev packageName) that será saved on the array devDependecies. 
+
 	- npm install @angular/cli@version - g: Install the version especifica do angular cli.
 
 	- npm uninstall @angular/cli -g: Unistall angular cli of the machine. o g do final significa install global
@@ -59,9 +52,9 @@ Commands NPM:
 						 ignorando the versions of packages of file package.json)	
 
 	- npm i PackageName: Install one package especifico. Modifica o package.json com o pacote instaldo. É criado no package.json a flag de Dependencies 
-						 também é criado o arquivo package-lock.json. In this file mostra os pacotes e suas dependencias.	
+						 também é criado o arquivo package-lock.json. In this file mostra os pacotes e suas dependencias. Saved on the array dependencies.	
 
-	- npm i PackageName --save-dev: If want to install only for ambiente de dev.
+	- npm i PackageName --save-dev: If want to install only for ambiente de dev. Saved on the array devDependecies
 
 	- npm i PackageName@version: Install version especifica. (There is npm i PackageName@latest, install last version of package).
 

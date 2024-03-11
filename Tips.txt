@@ -25,6 +25,10 @@ Tips Angular.
 
     - In the file angular.json have the row "main": "src/main.ts", in this line is where have the file initial of the project. 
 
-    - In the file main.ts have the row platformBrowserDynamic().bootstrapModule(NameModule): inside the () it's the module name initial
+    - In the file angular.json have the row "index": "src/index.html", in this line is where have the file initial of the html.
+
+    - In the file main.ts have the row platformBrowserDynamic().bootstrapModule(AppModule): inside the () it's the module initial. In this file also have the row
+      bootstrap: [AppComonent], indo util this file have a row selector: 'app-root', it's the tag que irá ser executada when to run project, é obrigatório have
+      a tag <app-root> no html of the your component. (This name app-root can ser qualquer nome, basta have o same name on the tag of html.)
     
      
