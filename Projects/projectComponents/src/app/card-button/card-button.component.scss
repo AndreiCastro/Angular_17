@@ -1,10 +1,15 @@
+@import "../../../src/styles.scss";
+
 .card-button {
     font-size: 16px;
     text-align: center;
     margin-top: 10px;
     border-radius: 25px;
-    background-color: white;
+    background-color: $bgcolor;
     cursor: pointer;
     font-weight: bold;
     padding: 10px;
 }
+
+//On the file styles.scss foi onde criei a variavel $bgcolor e atribui o valor para ele, e aqui neste 
+//css chamei essa variavel, mas para isso preciso fazer o @import do styles.scss 

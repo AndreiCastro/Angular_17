@@ -1,5 +1,11 @@
 <div class="card">
-    <div class="card__plan card__item">Plano <b>Simples</b></div>
-    <div class="card__price card__item">R$ 100,00/Mês</div>
+    <div class="card__plan card__item">Plano <b>{{plano.infos.tipo}}</b></div>
+    <div class="card__price card__item">{{plano.infos.preco}}</div>
+    
+    <!-- {{ }} Isso é uma interpolação (or bind), que le as propriedades da classe sem ficar com valores chumbados
+    <div class="card__plan card__item">Plano <b>{{getTipo() }}</b></div> 
+    Desta forma acima, chama direto a função-->
+
     <app-card-button></app-card-button>
+    <app-card-cancel-button></app-card-cancel-button>
 </div>
