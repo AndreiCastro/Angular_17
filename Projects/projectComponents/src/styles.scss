@@ -1,4 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/*Aqui é o css global, se quiser mudar algum estilo globalmente aqui é o melhor lugar, igual esse btn abaixo*/
 $bgcolor: white;
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+/*Add esses imports só para estudos, se quiser refatorar melhor o seu código, pode criar por exemplo styles componentes locais 
+e um style component importados, e dentro de cada file alterar seus estilos.
+Esse caso serve mais para particionar mais o código, mas não obrigatório.*/
+@import "./styles/localComponents";
+@import "./styles/importComponents";
+
+
+

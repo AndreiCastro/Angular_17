@@ -1,0 +1,5 @@
+// Alteração de cor na tag mat-slider que é importada da MatSliderModule
+// !important serve pra priorizar esse alteração
+.mdc-slider__track--active_fill {
+    border-color: yellowgreen !important;
+}
