@@ -1,0 +1,25 @@
+<input id="my-input" [value]="inputText" [type]="inputType" [disabled]="isDisabled">
+<!-- [value]="inputText" [type]="inputType" [disabled]="isDisabled" são todos bind, que é receber 
+valores e exibi-los no html via Angular-->
+
+<br />
+<br />
+<button (click)="enableInput()">Habilitar</button>
+<button (click)="disableInput()">Desabilitar</button>
+<!-- (click)="disableInput()" e (click)="enableInput()" são eventBind que são interações
+de eventos com valores passados pelo Angular -->
+
+<br />
+<br />
+<button (click)="setTextInput()">Texto</button>
+<button (click)="setPasswordInput()">Senha</button>
+
+<br />
+<br />
+<button (click)="logInputText()">Log</button>
+
+<br />
+<br />
+<button [attr.title]="buttonTitle">Log</button>
+<!-- [attr.title]="buttonTitle" é atributBind. Sempre que usa-lo deve colocar
+attr. na frente do atributo -->
