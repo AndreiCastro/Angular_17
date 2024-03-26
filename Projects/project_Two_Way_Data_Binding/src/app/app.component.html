@@ -1,0 +1,7 @@
+<h1>Nome:</h1>
+<input type="text" [(ngModel)]="name" (ngModelChange)="handleInputChange($event)"/> 
+<!-- Somente com esse código vc consegue replicar na tela o que colocou na tag input 
+    No app.compoments explico esse [()] = Two_Way_Data_Binding;
+add o event (ngModelChange)=handleInputChange($event) só de um exemplo se precisar fazer algo ao mudar o input -->
+
+<h1>Nome digitado: {{ name }}</h1>

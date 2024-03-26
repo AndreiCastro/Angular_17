@@ -1,0 +1,34 @@
+<!-- Usei o ng-tamplete, faço a chamada dele com uma condição para exibir a div dentro dele -->
+<div 
+  style="color: green;" 
+  *ngIf="minhaProp; else outraDivRed"><b>Sou uma div com if = true </b>
+</div>
+
+<ng-template #outraDivRed>
+  <div style="color: red;"><b>Sou uma div com if = false</b>
+  </div>
+</ng-template>
+
+<button (click)="toggleProp()">TrueOrFalse</button>
+
+<br />
+<br />
+<br />
+
+
+<!-- Usei o then para saber que existe essa condição igual elseif() -->
+<div   
+  *ngIf="minhaProp2; then outraDivBlack; else outraDivPurple"><b>Sou uma div if = true</b>
+</div>
+
+<ng-template #outraDivBlack>
+  <div style="color: blue;"><b>Sou uma div if = then</b>
+  </div>
+</ng-template>
+
+<ng-template #outraDivPurple>
+  <div style="color: violet;"><b>Sou uma div if = false</b>
+  </div>
+</ng-template>
+
+<button (click)="buttonThen()">Then</button>
