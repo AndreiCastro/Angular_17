@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-card-button',  
@@ -16,5 +16,10 @@ import { Component } from '@angular/core';
 
 })
 export class CardButtonComponent {
+  @Output() buttonClickEmitter = new EventEmitter<boolean>();
 
+  onButtonClick(){
+    console.log('onButtonClick');
+    this.buttonClickEmitter.emit(true);
+  }
 }

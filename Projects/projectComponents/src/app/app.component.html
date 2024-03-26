@@ -1,10 +1,11 @@
-<h1 class="cabecalho">App Component</h1>
+<h1 class="cabecalho"><b>App Component</b></h1>
 
 <div class="cards-container">
     <!--Fazendo a chamada do outro component -->
     <app-card></app-card>     
     <app-card-roxo></app-card-roxo>
 
-    <!--Sempre que usar o Input, colocar o element dentro de []-->>
+    <!--Chamando card-input.
+    Sempre que usar o Input, colocar o element dentro de []-->
     <app-card-input [cardPlanType]="planType" [cardPlanPrice]="planPrice"></app-card-input>
 </div>
