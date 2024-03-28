@@ -3,19 +3,20 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StatusClassPipe } from '../pipe/status-class.pipe';
+import { ComponentsModule } from './components/components.module';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    StatusClassPipe
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    ComponentsModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]
 })
