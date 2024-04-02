@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
-import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -12,11 +10,11 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
   ],
   imports: [
     BrowserModule,
-    ComponentsModule
+    ComponentsModule,
+    BrowserAnimationsModule
   ],
   providers: [
-    provideClientHydration(),
-    provideAnimationsAsync()
+    provideClientHydration()
   ],
   bootstrap: [AppComponent]
 })
