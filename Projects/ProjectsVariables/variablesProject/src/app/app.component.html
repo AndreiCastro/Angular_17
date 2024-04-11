@@ -1,0 +1,11 @@
+<input type="text" #meuInput ngModel/>
+<h3>Valor: <b>{{ meuInput.value }}</b></h3>
+<!-- #meuInput é uma variavel que declarei, estou acessando a propriedade value destes input.
+Para poder refletir o que esta sendo escrito no input para o h3 precisa colocar o ngModel. 
+PS para o NgModel funcionar deve importar o FormsModule no app.module-->
+
+
+<input type="text" [(ngModel)]="teste"/>
+<h3>Valor: <b>{{ teste }}</b></h3>
+<!-- Esse código acima faz a msm coisa, mas usa o Two-Way-Databind, e no app.component declaro o teste para 
+receber o valor e iniciar com alguma valor -->

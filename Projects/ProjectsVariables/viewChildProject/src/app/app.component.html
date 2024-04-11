@@ -1,0 +1,26 @@
+<div>
+  Meu input:
+  <br />
+  <input type="text" #meuInput />
+  <button (click)="updateInputText()">Update Input</button>
+  <br />
+  <button (click)="focus()">Foco</button>
+  <br />
+  <br />
+
+  <div #minhaDiv>Content Initial</div>
+  <button (click)="updateDivContent()">Update Div</button>
+  <hr />
+  <br />
+</div>
+
+<div>
+  <span>
+    <b>Usando ViewChild com components filho:</b>
+  </span>
+  <br />
+  <br />
+  <app-filho #filhoComp></app-filho>
+  <br />
+  <button (click)="hello()">Click Here</button>
+</div>
