@@ -44,7 +44,11 @@ Commands NPM:
 
 	- npm update:		Serve for to update the packages of the project em que your versions were updated in the npm site. Always updated the versions of package
 						seguindo a regra of the file package.json. Always to look the versions of packages of the file package-lock.json, 
-						in him are the versions correct of the package of your project.  	
+						in him are the versions correct of the package of your project.
+
+	- npm i -g typescript: Install typescript globalmente.
+
+	- tsc --version:    Show typescript version   	
 
 	- node_modules: 	It's the folder that contem todas as dependencias do meu projeto.
 
