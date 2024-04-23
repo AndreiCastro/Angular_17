@@ -66,4 +66,5 @@ Commands NPM:
 
 	- npm publish:		For publish your package, always que fizer this command, esteja in the folder of your package.
 
+	- npm ls -g:		Show packages installed globalmente
 	
