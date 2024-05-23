@@ -1,0 +1,28 @@
+<app-card>
+  <!-- Se add somente algo aqui, não irá refletir no tela, pois o Angular irá ler o que esta dentro do card.component.html .
+  Mas se usar a tag <ng-content></ng-content> no card.component.html, irá fazer a projeção de conteudo e exibir o que está 
+  dentro da tag <app-card> -->  
+  CARD
+</app-card>
+<br />
+
+<app-card2>
+  <p class="texto"> Sou visivel por causa da class</p>
+  <p> Não apareço</p> <!--Essa tag não aparece pq não foi especificado a class texto do component, já o de cima sim, por isso aparece -->
+</app-card2>
+<br />
+
+<app-card2>
+  <h3>Sou visivel porque sou h3</h3>
+  <p> Não apareço</p> <!--Essa tag não aparece pq ela é <p> e especifiquei para exibir only tags h3 no component-->
+</app-card2>
+<br />
+
+<app-card2>
+  <p attrTeste>Sou visivel porque tenha atributo<p>
+  <p> Não apareço</p> <!--Essa tag não aparece pq ela não tem um atributo e especifiquei para exibir as que tenha attr -->
+</app-card2>
+<br />
+
+<br />
+<br />

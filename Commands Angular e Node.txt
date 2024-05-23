@@ -4,13 +4,15 @@ Angular CLI e Node
 =================================================================================================================================================================
 Commands Ng:
 	- ng new initialProject: Create the new project in Angular
-        					 PS: A partir do Angular 17 don't create the file app.module, but for create this file add the command 
-							 --no-standalone the last of command: ng new projectName --no-standalone
+        			 PS: A partir do Angular 17 don't create the file app.module, but for create this file add the command 
+				     --no-standalone the last of command: ng new projectName --no-standalone
     
-    - ng serve: 			 Run project, to run also in same folder that estiver the file package.json
+    	- ng serve: 		 Run project, to run also in same folder that estiver the file package.json
 
-	- ng version: 			 Show version angular 
+	- ng version: 		 Show version angular 
 
-	- ng generate component NameComponent (ng g c NameComponent): This command serve for gerar the new components in your project, to run it inside of the project
+	- ng generate component componentName (ng g c componentName): This command serve for gerar the new components in your project, to run it inside of the project
 
-	- ng generate module NameModel (ng g m NameModel): This command serve for gerar the new models in your project, to run it inside of the project
+	- ng generate module modelName (ng g m modelName): 	      This command serve for gerar the new models in your project, to run it inside of the project
+
+	- ng generate directive DirectiveName (ng g directiveName ):  This command serve for gerar the new directive in your project, to run it inside of the project
