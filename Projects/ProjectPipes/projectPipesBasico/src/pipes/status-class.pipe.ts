@@ -12,7 +12,8 @@ export class StatusClassPipe implements PipeTransform {
             1: 'active',
             2: 'partial',
             3: 'blocked'
-        };
+        }; 
+        //as cores deste status estão no scss
 
         return obj[status];
     }

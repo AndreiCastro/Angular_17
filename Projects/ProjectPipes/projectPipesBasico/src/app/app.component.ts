@@ -20,4 +20,14 @@ export class AppComponent {
     name: 'Aline',
     status: 3
   };
+
+  pessoa4 = {
+    name: 'Maria',
+    status: 4
+  }
+
+  user = {
+    nome: 'Andrei',
+    idade: 32,
+  };
 }

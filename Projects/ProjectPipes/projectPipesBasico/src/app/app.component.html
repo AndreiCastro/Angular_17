@@ -1,0 +1,24 @@
+<!-- Pipes nativos Angular -->
+{{pessoa4.name | uppercase}}
+<br />
+{{pessoa4 | json}}
+
+
+<!-- Pipes create for me -->
+<h1
+[class]="pessoa.status | statusClass"
+>{{pessoa.name}}</h1>
+
+<h1
+[class]="pessoa2.status | statusClass"
+>{{pessoa2.name}}</h1>
+
+<h1
+[class]="pessoa3.status | statusClass"
+>{{pessoa3.name}}</h1>
+
+
+
+<h1>Name of User: <b>{{user.nome | truncate : 3 | uppercase}}</b> </h1> <!-- O pipe truncate recebe 2 parametros string and number -->
+<!-- Pode add outro pipes tbm, ex: após truncate : 3 adicionei uppercase, mas pode add lowercase, titlecase etc-->
+

@@ -3,12 +3,14 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StatusClassPipe } from '../pipe/status-class.pipe';
+import { StatusClassPipe } from '../pipes/status-class.pipe';
+import { TruncatePipe } from '../pipes/truncate.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StatusClassPipe
+    StatusClassPipe,
+    TruncatePipe
   ],
   imports: [
     BrowserModule,
