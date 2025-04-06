@@ -1,0 +1,35 @@
+<form [formGroup]="emailForm">
+    <label for="email">Email:</label>
+    
+    <!--formControlName for conect ao form
+        (blur) Call function onEmailBlur() when lost focus of field-->
+    <input
+        id="email"
+        type="email"
+        formControlName="email"
+        (blur)="onEmailBlur()"
+    />
+
+    <!--Show message when the field is empty-->
+    <div *ngIf="emailForm.get('email')?.hasError('requerid')">
+        o e-mail é obrigatório
+    </div>
+
+    <!--Show message when the field estiver with format invalid-->
+    <div *ngIf="emailForm.get('email')?.hasError('email')">
+        Formato de email inválido.
+    </div>
+
+    <!--Show message the loading enquanto API response-->
+    <div *ngIf="loading">Verificando e-mail...</div>
+
+    <!--Show message validation of the API-->
+    <div *ngIf="emailValid === false && !loading">
+        O e-mail parece inválido segundo verificação externa.
+    </div>
+
+    <!--Show check if field is valid-->
+    <div *ngIf="emailValid === true && !loading">
+        E-mail válido!
+    </div>
+</form>
